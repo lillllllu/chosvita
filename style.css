@@ -567,4 +567,44 @@ footer {
     margin-top: 2px;
     font-weight: normal;
     color: #1a237e;
+}
+
+@media (max-width: 700px) {
+    .map-section {
+        margin-top: 30px;
+        margin-bottom: 20px;
+        padding: 0 10px;
+    }
+    
+    .map-container {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .ukraine-map {
+        max-width: 100%;
+        height: auto;
+        border-radius: 12px;
+    }
+    
+    .regions-list-horizontal {
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+        margin: 15px 0;
+    }
+    
+    .regions-list-horizontal .region-item {
+        width: 100%;
+        max-width: 280px;
+        text-align: center;
+        padding: 8px 12px;
+        font-size: 1em;
+    }
+    
+    .map-hint {
+        font-size: 0.9em;
+        margin-top: 12px;
+        padding: 0 10px;
+    }
 } 
